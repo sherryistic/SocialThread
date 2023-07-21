@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+ 
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <img src="../Threads4.png" alt="logo" class="logo" />
+      <div class="user" id="user">
+        <span class="userImg" id="userImg">
+          <i class="bi bi-person-fill"></i>
+        </span>
+        <span class="userName" id="userName"></span>
+      </div>
+
+      <!-- <button id="logout" class="logout">
+        LOG OUT <i class="bi bi-arrow-left-square-fill"></i>
+      </button>
+       -->
+    </header>
+
+    
+    
+    <section class="postSection" id="postSection"></section>
+    <section class="createPostForm" id="createPostForm">
+      <form id="form" class="form">
+        <input
+          type="text"
+          placeholder="Your text"
+          class="textInput"
+          id="textInput"
+        />
+        <button type="submit" class="postSubmitBtn" id="postSubmitBtn">
+          <i class="bi bi-arrow-right-square-fill"></i>
+        </button>
+      </form>
+    </section>
+    <div class="clickForm" id="clickForm" data-title="Create Thread">
+      <i class="bi bi-pencil-square"></i>
+    </div>
+
+    <button id="logout" class="logout">
+      LOG OUT <i class="bi bi-arrow-left-square-fill"></i>
+    </button>
+
+    <span class="alertBox" id="alertBox"></span>
+    <script type="module" src="./home.js"></script>
+
+
+  </body>
+</html>
